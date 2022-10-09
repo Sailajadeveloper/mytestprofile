@@ -1,0 +1,14 @@
+// First time from the new folder
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Sailajadeveloper/mytestprofile.git
+git push -u origin main
+
+// next time onwards in the same folder
+
+git add .
+git commit -m "second commit"
+git push 
